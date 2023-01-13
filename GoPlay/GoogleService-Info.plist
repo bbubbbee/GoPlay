@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>335046583331-8r2j45klmr15e6grq08l8me367euq2ge.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.335046583331-8r2j45klmr15e6grq08l8me367euq2ge</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC0Ock7XpDXR_011kdLHXQSL-O3QONfn0w</string>
+	<key>GCM_SENDER_ID</key>
+	<string>335046583331</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>ONO.GoPlay</string>
+	<key>PROJECT_ID</key>
+	<string>goplay-c62d3</string>
+	<key>STORAGE_BUCKET</key>
+	<string>goplay-c62d3.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:335046583331:ios:8d5ae13dd52afbd9c4fd96</string>
+</dict>
+</plist>

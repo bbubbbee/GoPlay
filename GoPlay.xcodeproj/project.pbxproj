@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		F43EC69B296FBEA3000E7EAB /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43EC69A296FBEA3000E7EAB /* MapViewController.swift */; };
 		F43EC69D296FBEBD000E7EAB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43EC69C296FBEBD000E7EAB /* HomeViewController.swift */; };
+		F43EC6A0296FC630000E7EAB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43EC69F296FC630000E7EAB /* LoginViewController.swift */; };
+		F43EC6A2296FC637000E7EAB /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43EC6A1296FC637000E7EAB /* RegisterViewController.swift */; };
+		F43EC6A4296FC6E5000E7EAB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43EC6A3296FC6E5000E7EAB /* Extensions.swift */; };
+		F43EC6A6296FE754000E7EAB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F43EC6A5296FE754000E7EAB /* GoogleService-Info.plist */; };
+		F43EC6A82970F77B000E7EAB /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43EC6A72970F77B000E7EAB /* DatabaseManager.swift */; };
+		F43EC6AA29710365000E7EAB /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43EC6A929710365000E7EAB /* StorageManager.swift */; };
 		F443AE75296E713300F40DB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F443AE74296E713300F40DB0 /* AppDelegate.swift */; };
 		F443AE77296E713300F40DB0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F443AE76296E713300F40DB0 /* SceneDelegate.swift */; };
 		F443AE79296E713300F40DB0 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F443AE78296E713300F40DB0 /* ProfileViewController.swift */; };
@@ -24,6 +30,12 @@
 		EED2819B007B16CF33BA7DC5 /* Pods-GoPlay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoPlay.debug.xcconfig"; path = "Target Support Files/Pods-GoPlay/Pods-GoPlay.debug.xcconfig"; sourceTree = "<group>"; };
 		F43EC69A296FBEA3000E7EAB /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		F43EC69C296FBEBD000E7EAB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F43EC69F296FC630000E7EAB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F43EC6A1296FC637000E7EAB /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		F43EC6A3296FC6E5000E7EAB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F43EC6A5296FE754000E7EAB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F43EC6A72970F77B000E7EAB /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		F43EC6A929710365000E7EAB /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		F443AE71296E713300F40DB0 /* GoPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F443AE74296E713300F40DB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F443AE76296E713300F40DB0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +87,7 @@
 		F43EC695296FBC32000E7EAB /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				F43EC69E296FC624000E7EAB /* Register */,
 				F443AE78296E713300F40DB0 /* ProfileViewController.swift */,
 				F43EC69A296FBEA3000E7EAB /* MapViewController.swift */,
 				F43EC69C296FBEBD000E7EAB /* HomeViewController.swift */,
@@ -94,6 +107,9 @@
 			children = (
 				F443AE74296E713300F40DB0 /* AppDelegate.swift */,
 				F443AE76296E713300F40DB0 /* SceneDelegate.swift */,
+				F43EC6A3296FC6E5000E7EAB /* Extensions.swift */,
+				F43EC6A72970F77B000E7EAB /* DatabaseManager.swift */,
+				F43EC6A929710365000E7EAB /* StorageManager.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -112,6 +128,15 @@
 				F443AE7F296E713400F40DB0 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		F43EC69E296FC624000E7EAB /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				F43EC69F296FC630000E7EAB /* LoginViewController.swift */,
+				F43EC6A1296FC637000E7EAB /* RegisterViewController.swift */,
+			);
+			path = Register;
 			sourceTree = "<group>";
 		};
 		F443AE68296E713300F40DB0 = {
@@ -135,6 +160,7 @@
 		F443AE73296E713300F40DB0 /* GoPlay */ = {
 			isa = PBXGroup;
 			children = (
+				F43EC6A5296FE754000E7EAB /* GoogleService-Info.plist */,
 				F43EC698296FBC4A000E7EAB /* ViewModels */,
 				F43EC697296FBC44000E7EAB /* Resources */,
 				F43EC696296FBC38000E7EAB /* Models */,
@@ -206,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F443AE81296E713400F40DB0 /* LaunchScreen.storyboard in Resources */,
+				F43EC6A6296FE754000E7EAB /* GoogleService-Info.plist in Resources */,
 				F443AE7E296E713400F40DB0 /* Assets.xcassets in Resources */,
 				F443AE7C296E713300F40DB0 /* Main.storyboard in Resources */,
 			);
@@ -260,11 +287,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F43EC6A0296FC630000E7EAB /* LoginViewController.swift in Sources */,
 				F443AE79296E713300F40DB0 /* ProfileViewController.swift in Sources */,
+				F43EC6A2296FC637000E7EAB /* RegisterViewController.swift in Sources */,
+				F43EC6A4296FC6E5000E7EAB /* Extensions.swift in Sources */,
 				F443AE75296E713300F40DB0 /* AppDelegate.swift in Sources */,
 				F43EC69D296FBEBD000E7EAB /* HomeViewController.swift in Sources */,
 				F443AE77296E713300F40DB0 /* SceneDelegate.swift in Sources */,
+				F43EC6AA29710365000E7EAB /* StorageManager.swift in Sources */,
 				F43EC69B296FBEA3000E7EAB /* MapViewController.swift in Sources */,
+				F43EC6A82970F77B000E7EAB /* DatabaseManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

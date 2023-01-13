@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Map View Controller-->
+        <!--Map-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="MapViewController" customModule="GoPlay" customModuleProvider="target" sceneMemberID="viewController">
@@ -18,7 +18,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="cZu-eP-Zty"/>
+                    <navigationItem key="navigationItem" title="Map" id="cZu-eP-Zty"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -30,8 +30,8 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="i69-8Q-159" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Map" image="magnifyingglass" catalog="system" id="V6o-lg-LFb"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="D4X-C7-HDh">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="D4X-C7-HDh">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -49,8 +49,8 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1ca-rD-mM0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController id="dNb-QJ-vlb" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Home" image="house" catalog="system" id="15y-U2-iV5"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="XGI-Go-Nbf">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="XGI-Go-Nbf">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -79,7 +79,7 @@
             </objects>
             <point key="canvasLocation" x="577" y="-803"/>
         </scene>
-        <!--Home View Controller-->
+        <!--Home-->
         <scene sceneID="V3F-Mb-ocI">
             <objects>
                 <viewController id="u5C-YW-eet" customClass="HomeViewController" customModule="GoPlay" customModuleProvider="target" sceneMemberID="viewController">
@@ -89,7 +89,7 @@
                         <viewLayoutGuide key="safeArea" id="0qX-i1-eVX"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Xvn-7P-5B7"/>
+                    <navigationItem key="navigationItem" title="Home" id="Xvn-7P-5B7"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B71-D7-Uod" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -101,8 +101,8 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qkO-eN-MhF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController id="x8x-b3-BHi" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Profile" image="person" catalog="system" id="qMO-9N-Wed"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="FGi-bZ-AO8">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="FGi-bZ-AO8">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -112,7 +112,7 @@
             </objects>
             <point key="canvasLocation" x="1426" y="-75"/>
         </scene>
-        <!--Profile View Controller-->
+        <!--Profile-->
         <scene sceneID="scz-pA-3je">
             <objects>
                 <viewController id="hbr-1r-qf4" customClass="ProfileViewController" customModule="GoPlay" customModuleProvider="target" sceneMemberID="viewController">
@@ -122,7 +122,7 @@
                         <viewLayoutGuide key="safeArea" id="irh-XW-wFh"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="aql-Md-vjZ"/>
+                    <navigationItem key="navigationItem" title="Profile" id="aql-Md-vjZ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DrP-cj-8OA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
